@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <ol>1.在QQ、360等IE内核的浏览器下，js的date函数不能正常解析字符串
+        <p>
+            调试了很久啊啊啊啊啊啊啊啊！<br>
+            想他妈干爆IE，在Django服务器运行下就不能解析，单独写个本地的html页面调用这个函数就可以，百思不得其解！<br>
+            后面才发现是字符串的格式有问题，服务器下运行的new Date（）里的参数只能解析2018/4/12 19:14:12这种类型，<br>
+            如果用了2018-4-12 19:14:12就会出错，导致整个js全部不能运行。<br>
+            天啊！为什么国内的浏览器都是IE内核啊！<br>
+        </p>
+    </ol>
+</div>
+</body>
+</html>

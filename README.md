@@ -37,7 +37,7 @@ class Book(object):
 ```
 在UEditorField设置中  
 width和height分别表示富文本的宽和高  
-toolbars表示的是富文本的按钮，full表示全部
+toolbars表示的是富文本的按钮数量，full表示全部。  
 imagePath和filePath表示富文本保存的图片和文件的路径，这是基于`setting.py`中的`MEDIA_ROOT`目录下的，比如MEDIA_ROOT='/static/'，imagePath="/images/"，那么图片就会保存在项目根目录的'/static/images/'下面，'../'表示跳出一级目录。  
 4.在APP下的admin.py中，对注册的admin字段进行设置
 ```

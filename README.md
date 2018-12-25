@@ -11,7 +11,7 @@
 ## 1 admin后台中富文本的实现(DjangoUeditor)
  首先下载安装第三方库DjangoUeditor，py2可以直接用pip命令进行安装。因为作者已经很久不更新了，所以不支持py3，想在py3里使用的话请[点此下载](https://codeload.github.com/twz915/DjangoUeditor3/zip/master)安装。  
  下载安装完成后，就可以在项目中进行配置了。这里以一个网上书店APP作为例子，`步骤没有先后，但必须要保证没有遗漏。`  
- 1.在项目根目录的`setting.py1文`件的`INSTALLED_APPS`字段中，将DjangoUeditor加入，具体代码如下。  
+ 1.在项目根目录的`setting.py`文件的`INSTALLED_APPS`字段中，将DjangoUeditor加入，具体代码如下。  
  ```
  INSTALLED_APPS = [
      ……………………………………

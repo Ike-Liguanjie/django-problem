@@ -4,11 +4,11 @@
 前期的目录结构会比较混乱，想到哪里写哪里，可以用Crtl+F进行查找，等后期内容多了，再对内容框架做一个梳理，就这样。<br>
 
 # 目录
-> [Django](#django)
->> [1 admin后台中富文本的实现(DjangoUeditor)](#1-admin后台中富文本的实现djangoueditor)  
->> [2 admin后台中导入导出功能的实现](#2-admin后台中导入导出功能的实现)
->>> [导出功能](#导出功能)  
->>> [导入功能](#导入功能)
+* [Django](#django)
+    * [1 admin后台中富文本的实现(DjangoUeditor)](#1-admin后台中富文本的实现djangoueditor)  
+    * [2 admin后台中导入导出功能的实现](#2-admin后台中导入导出功能的实现)
+        * [1 导出功能](#导出功能)  
+        * [2 导入功能](#导入功能)
  
 # Django
 ## 1 admin后台中富文本的实现(DjangoUeditor)
